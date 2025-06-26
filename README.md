@@ -1,4 +1,4 @@
-# Dockerize-Flask-App
+# Dockerize-Flask-App [![Build and Test](https://github.com/vinithreddybanda/Dockerize-Flask-App/actions/workflows/docker-build.yml/badge.svg)](https://github.com/vinithreddybanda/Dockerize-Flask-App/actions/workflows/docker-build.yml)
 
 Simple Flask app containerized with Docker.
 
