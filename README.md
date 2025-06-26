@@ -1,13 +1,20 @@
 # Dockerize-Flask-App
-A simple Flask application that says Hello COSC!
 
-## Getting Started
+Simple Flask app containerized with Docker.
 
-To dockerize this Flask application, follow these steps:
 
-1. Create a `Dockerfile` in the root directory
-2. Add a `.dockerignore` file to exclude unnecessary files
+## Docker Commands
+```bash
+# Build
+docker build -t flask-app .
 
-## Instructions
+# Run
+docker run -p 5000:5000 flask-app
 
-Create the necessary Docker configuration files to containerize this Flask application. 
+# Run detached
+docker run -d -p 5000:5000 flask-app
+
+# Stop
+docker stop <container-id>
+```
+ 
