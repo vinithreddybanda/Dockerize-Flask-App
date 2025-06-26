@@ -35,4 +35,4 @@ ENV FLASK_APP=app.py
 ENV FLASK_RUN_HOST=0.0.0.0
 
 # Run the application directly with Python
-CMD ["python3", "-m", "flask", "run"]
+CMD ["python3", "app.py"]

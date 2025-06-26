@@ -2,8 +2,14 @@
 
 Simple Flask app containerized with Docker.
 
+## Quick Start
+```bash
+docker build -t flask-app .
+docker run -p 5000:5000 flask-app
+```
+Open http://localhost:5000
 
-## Docker Commands
+## Commands
 ```bash
 # Build
 docker build -t flask-app .
